@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css?family=Lora|Open+Sans:400,600,700');
+html {
+    font-family: 'Lora', serif;
+}
+
+h1 {
+    font-size: 38.4px;
+    line-height: 46px;
+    color: #272727;
+}
+
+h2 {
+    font-size: 28px;
+    line-height: 34px;
+    color: #000;
+}
+
+h3 {
+    font-size: 28px;
+    line-height: 34px;
+    color: #272727;
+}
+
+h4 {
+    font-size: 19.8px;
+    line-height: 24px;
+    color: #232323;
+}
+
+h5 {
+    font-size: 16.8px;
+    line-height: 21px;
+    color: #fff;
+}
+
+h6 {
+    font-size: 16.8px;
+    line-height: 21px;
+    color: #232323;
+}
+
+.wrapAll {
+    width: 100vw;
+    height: 100vh;
+}
+
+.noDataNav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 10%;
+}
+
+#dmNav {
+    font-size: 16.8px;
+    line-height: 21px;
+    color: #272727;
+    text-decoration: none;
+}
+
+#topRule {
+    width: 95%;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #EAEAEA;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+#searchIcon {
+    margin-left: 30px;
+}
+
+#hamIcon {
+    margin-right: 30px;
+}
+
+.contentWrapper {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 78%;
+}
+
+.leftContent {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 30px;
+    margin-top: 3vh;
+}
+
+.leftContent input, textarea {
+    font-family: 'Lora', serif;
+    font-size: 16.8px;
+    line-height: 21px;
+    width: 215px;
+    color: #b6b6b6;
+    margin-bottom: 5px;
+    border: 1px solid #eeeded;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 5px;
+    opacity: .65;
+}
+
+.leftContent button {
+    font-family: 'Lora', serif;
+    width: 215px;
+    height: 30px;
+    background-color: #00ffe9;
+    opacity: .8;
+    font-size: 13.44px;
+    line-height: 17px;
+    color: #9a9a9a;
+}
+
+#devLink {
+    color: #00ffe9;
+}
+
+#bio {
+    height: 140px;
+}
+
+.leftContent>:focus {
+    outline: 0;
+}
+
+.devWelcome {
+    font-size: 12.07px;
+    line-height: 14px;
+    color: #232323;
+}
+
+.rightContent {
+    width: 56%;
+    margin-right: 30px;
+    margin-top: 3vh;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.backTri {
+    width: 90%;
+    height: 50vw;
+    -webkit-clip-path: polygon(54% 0, 0 87%, 100% 96%);
+    background: url('../images/inspired.jpg') center no-repeat;
+    background-size: cover;
+    opacity: .2;
+}
+.frontTri{
+  position: absolute;
+  height: 48%;
+  width:48%;
+  -webkit-clip-path: polygon(0 29%, 69% 100%, 100% 13%);
+  background-color: #00ffe9;
+  z-index: 3;
+  top: 32vh;
+}
+
+#bottomRule {
+    width: 82vw;
+    margin-top: 0;
+    margin-bottom: 0;
+    border: 0;
+    border-top: 1px solid #eaeaea;
+}
+
+.bottomNav {
+    height: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding-top: 2vh;
+}
+
+.bottomNav a {
+    font-family: 'OpenSans700', sans-serif;
+    ;
+    font-size: 13.2px;
+    line-height: 18px;
+    color: #a9a9a9;
+    text-decoration: none;
+}
